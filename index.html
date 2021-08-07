@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--telling your browser to use the UTF-8 character encoding, which is a method of converting your typed characters into machine-readable code-->
+    <meta charset="UTF-8">
+    <!--X-UA-Compatible is a document mode meta tag that allows web authors to choose what version of Internet Explorer the page should be rendered a-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport meta tag to control layout on mobile browsers Background-->
+    <!--The width property controls the size of the viewport.-->
+    <!--The initial-scale property controls the zoom level when the page is first loaded. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to css-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Practice site</title>
+</head>
+<body>
+    <!--nav starts-->
+    <nav>
+        <a href="./index.html">Main</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">contact</a>
+    </nav>
+    <!--nav ends-->
+
+    <!--main starts-->
+    <main>
+        <h1>The Majestic Wolf</h1>
+        <section class="one">
+            <h2>All about the beautiful Wolf</h2>
+        </section>
+
+        <section>
+            <!--start of image-->
+            <figure>
+                <img src="https://i.natgeofe.com/n/914ced12-24d0-4405-889e-4290b9f9009d/gray-wolf_thumb.JPG" alt="wolf_side_profile" title="wolf" width="650px" height="550px">
+                <figcaption style="font-size: small;"><em>Beautiful wolf</em></figcaption>
+            </figure>
+            <!--end of image-->
+
+        <!--start of article-->
+            <article id="about">
+                <h3>About</h3>
+
+                <!--anchor tag href starts-->
+                <div class="anchor">
+                    <a href="https://en.wikipedia.org/wiki/Wolf" target="_blank">Source-wikipedia:Wolf</a>
+                </div>
+                <!--anchor tage href ends-->
+
+                <div class="left" >
+                    <p>The wolf (Canis lupus[a]), also known as the gray wolf or grey wolf, is a large canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, and gray wolves, as colloquially understood, comprise non-domestic/feral subspecies. The wolf is the largest extant member of the family Canidae, males averaging 40 kg (88 lb) and females 37 kg (82 lb). Wolves measure 105–160 cm (41–63 in) in length and 80–85 cm (31–33 in) at shoulder height. The wolf is also distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail. The wolf is nonetheless related closely enough to smaller Canis species, such as the coyote and the golden jackal, to produce fertile hybrids with them. The banded fur of a wolf is usually mottled white, brown, gray, and black, although subspecies in the arctic region may be nearly all white.</p>
+                    <p>
+                    Of all members of the genus Canis, the wolf is most specialized for cooperative game hunting as demonstrated by its physical adaptations to tackling large prey, its more social nature, and its highly advanced expressive behaviour. It travels in nuclear families consisting of a mated pair accompanied by their offspring. Offspring may leave to form their own packs on the onset of sexual maturity and in response to competition for food within the pack. Wolves are also territorial and fights over territory are among the principal causes of wolf mortality. The wolf is mainly a carnivore and feeds on large wild hooved mammals as well as smaller animals, livestock, carrion, and garbage. Single wolves or mated pairs typically have higher success rates in hunting than do large packs. Pathogens and parasites, notably rabies virus, may infect wolves.</p>
+                </div>
+            </article>
+            <!--end of article-->
+        </section>
+    </main>
+    <!--main ends-->
+
+    <!--start of address block-->
+        <address id="contact">
+            <b><i>Contact:</i></b><br>
+            School for Wolverine Training<br>
+            32 Wolf street.<br>
+            Wolf State, Wolf Country<br>
+            tel: 01422666<br>
+            <a href="mailto:wolverine@wolfman.com">Send an Email </a>
+            <br>
+            <h4><strong><em>~~~ Come Visit Us! ~~~</em></strong></h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.9124946133043!2d144.9666516148909!3d-37.815518579752016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b6376d4e71%3A0xc9e04b9cd9e9b509!2sGoogle%2C%20Melbourne!5e0!3m2!1sen!2sau!4v1628312773955!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </address>
+        <!--end of address block-->
+        <br>
+
+        <!--start of form element-->
+        <form>
+            <h4>Subscribe to newsletter</h4>
+            <span>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter full name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            <input type="submit" value="submit">
+            </span>
+        </form>
+        <!--end of form-->
+        <br>
+        <footer>Made with love &hearts; copyright 2021</footer>
+</body>
+</html>
